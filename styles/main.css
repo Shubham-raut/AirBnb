@@ -1,0 +1,138 @@
+<!-- In this file you are going to write the CSS code -->
+html{
+    height: 100%;
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+body{
+    margin: 0px;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.headerStyle{
+    background-color: #4ea29f;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContent{
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.headerButton{
+    flex-basis: 70%;
+}
+
+.buttonStyle{
+    color: white;
+    background-color: #2a5350;;
+    border: 1px solid #2a5350;;
+    padding: 5px;
+}
+
+.headerLinks{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bodyStyle{
+    background: linear-gradient(#39eb9a, #ce95d2);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.bodyContent{
+    width: 600px;
+}
+
+.secondHeader{
+    font-size: 18px;
+    color: #ac328f;
+}
+
+.secondTable table{
+    width: 100%;
+}
+
+.secondTable table td{
+    padding: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.secondContent{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.greenButton{
+    width: 200px;
+    font-size: 12px;
+    color: white;
+    background-color: #00c556;
+    border: 1px solid #00c556;
+    padding: 5px;
+}
+
+.list{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.inputBox{
+    height: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.verticalGap20{
+    height: 20px;
+}
+.verticalGap10{
+    height: 10px;
+}
+
+.headerRow{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hrStyle{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+.imageRow{
+    display:flex;
+    flex-direction: column;
+}
+.pic{ 
+    width:100%; 
+}
+
+.img2{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.innerPic{
+    width: 24.6%;
+}
